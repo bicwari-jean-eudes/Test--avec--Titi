@@ -1,0 +1,13 @@
+[class*="col-"]
+
+
+
+.col-6 {
+  max-width: 50%;
+}
+.col-12{
+  max-width:100 ;
+}
+.col-5{
+  max-width: 41.66%;
+}
