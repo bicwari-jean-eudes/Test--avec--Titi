@@ -22,7 +22,8 @@ background-color: black;
 .header{
   width: 100vw;
   height: 20vh;
-  background-color:white
+  background-color:white;
+  border-bottom:green solid 0.3vw
 }
 .chien{
   position: absolute;
@@ -36,29 +37,39 @@ background-color: black;
 h1{
   font-family: Sofia;
   position: absolute;
-  width: 478px;
-  height: 55px;
-  left: 68px;
-  top: 2px;
+  width: 24.90vw;
+  height: 5.09vh;
+  left:12vw;
+  top: 3px;
   font-style: normal;
   font-weight: normal;
-  font-size: 64px;
-  line-height: 75px;
-  color: chartreuse;
+  font-size: 3.33vw;
+  line-height: 6.94vh;
+  color:rgb(63, 243, 78);
 
 
 }
+.logoPet{
+  position: absolute;
+  width: 12vw;
+  height: 12vh;
+  left: 5vw;
+  top: 10px;
+  z-index: 999;
+  background-color: black;
+}
+
 h2{
   position: absolute;
-  width: 678px;
-  height: 45px;
-  left: 268px;
-  top: 76px;
+  width: 35.33vw;
+  height: 4.16vh;
+  left: 32vw;
+  top: 8.5vh;
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 34px;
-  line-height: 75px;
+  font-size: 1.77vw;
+  line-height: 6.94vh;
   color: maroon;
 }
 h3{
@@ -66,18 +77,89 @@ h3{
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 34px;
-  line-height: 75px;
+  font-size: 1.77vw;
+  line-height: 6.94vh;
+  color: white;
 }
 .meds p{
   position: absolute;
-  top:40vh;
+  top:50vh;
   left: 5vw;
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.2vw;
+  line-height: 2.31vh;
+}
+.pets{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 20vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.pets p{
+  position: absolute;
+  top: 29vh;
+  left: 0.5vw;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 2.31vh;
+}
+.service{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 69vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.service p{
+  position: absolute;
+  top: 29vh;
+  left: 0.5vw;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 2.31vh;
+}
+.future{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 69vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.healthy{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 69vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.healthy p{
+  position: absolute;
+  top: 29vh;
+  left: 0.5vw;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 2.31vh;
 }
 .meds{
   display: flex;
@@ -85,25 +167,25 @@ h3{
   justify-content: center;
   border-right: black solid 0.1vw;
   width: 49.9vw;
-  height: 69vh;
+  height: 49vh;
   background-color: coral;
   border-radius: 20px;
 }
 .food p{
   position: absolute;
-  top: 39vh;
+  top: 50vh;
   left: 59vw;
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.2vw;
+  line-height: 2.31vh;
 }
 .food{
   display: flex;
   justify-content: center;
   width: 50vw;
-  height: 69vh;
+  height: 49vh;
   background-color: coral;
   border-radius:20px ;
 }
@@ -218,4 +300,14 @@ a span:nth-child(4){
   50%,100%{
       bottom: 100%;
   }
+}
+@media only screen and (max-width: 600px) {
+#logoPet{
+  width: 10vw;
+  height: 10vh;
+}
+.chien{
+  width: 18vw;
+  height: 25vh;
+}
 }
