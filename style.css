@@ -29,11 +29,8 @@ background-color: black;
   border-bottom:green solid 0.3vw
 }
 .logoPet{
-  display: flex;
-  justify-content: center;
   width: 22vw;
   height: 10vh;
-  z-index: 999;
 }
 #log{
   align-items: center;
@@ -293,7 +290,7 @@ a span:nth-child(4){
       bottom: 100%;
   }
 }
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 600px) {
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 *{
   margin: 0;
@@ -302,8 +299,8 @@ a span:nth-child(4){
 body{
   display: flex;
   flex-wrap: wrap;
+  overflow: scroll;
 width: 100vw;
-height: 100vh;
 background-color: black;
 
 }
@@ -311,31 +308,19 @@ background-color: black;
   display: flex;
   flex-wrap: wrap;
 width: 100vw;
-height: 100vh;
 background-color: black;
 }
 header{
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
-  height: 17vh;
+  height: 15vh;
   margin: 0;
   background-color:white;
   border-bottom:green solid 0.3vw
 }
-.logoPet{
-  display: flex;
-  justify-content: center;
-  width: 22vw;
-  height: 10vh;
-  z-index: 999;
-}
 #log{
-  align-items: center;
-  display: flex;
-  width: 22vw;
-  height: 10vh;
-  z-index: 999;
+  width: 15vw;
 }
 .caracte{
   width: 55vw;
@@ -352,7 +337,7 @@ justify-content: center;
 #chien2{
   align-items: center;
   width: 18vw;
-  height: 17vh;
+  height: 14vh;
   border-radius: 40px;
   background: url(chien-chat.jpg);
 }
@@ -362,10 +347,7 @@ h1{
   font-family: Sofia;
   width: 24.90vw;
   height: 5.09vh;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3.33vw;
-  line-height: 6.94vh;
+  font-size: large;
   color:rgb(63, 243, 78);
 z-index: 999;
 }
@@ -373,19 +355,15 @@ h2{
   align-items: flex-start;
   width: 45vw;
   height: 4.16vh;
-  font-family: roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.77vw;
-  line-height: 6.94vh;
+  font-size: large;
   color: maroon;
 }
 .pets{
   border-right: black solid 0.1vw;
   width: 100vw;
-  height: 20vh;
+  height: 40vh;
   background-color: coral;
-  border-radius: 20px;
+  border-radius:10px ;
 }
 .service{
   display: flex;
@@ -544,10 +522,9 @@ a span:nth-child(4){
 }
 .menu{
   display: block;
-  height:35vh;
+  height:37vh;
   width:100vw;
-  background-color:white;
-  border-radius:20px;
+  background-color:black;
 }
 h3{
   display: flex;
@@ -557,18 +534,18 @@ h3{
 }
 .food{
   width: 50vw;
-  height: 39vh;
+  height: 89vh;
   background-color: coral;
   border-radius:10px
 }
 p{
   display: flex;
   align-items: flex-start;
-  font-size: x-small;
+  font-size: medium;
   padding: 5px;
 }
 .meds{
-  height: 39vh;
+  height: 89vh;
   width: 49.8vw;
   background-color: coral;
   border-radius:10px ;
