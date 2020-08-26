@@ -321,14 +321,14 @@ header{
   width: 15vw;
 }
 .caracte{
-  width: 67vw;
+  width: 70vw;
   height:55vh ;
   padding: 20px;
 }
 .chien{
 display: flex;
 justify-content: center;
-  width: 17vw;
+  width: 14vw;
   height: 17vh;
   border-radius: 40px;
 }
