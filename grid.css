@@ -1,13 +1,11 @@
-[class*="col-"]
 
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.col-2{
+  flex: 16.66%;
+  max-width:16.66% ;
+}
 
-.col-6 {
-  max-width: 50%;
-}
-.col-12{
-  max-width:100 ;
-}
-.col-5{
-  max-width: 41.66%;
-}

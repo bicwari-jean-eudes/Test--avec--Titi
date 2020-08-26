@@ -8,8 +8,8 @@ body{
   flex-wrap: wrap;
 width: 100vw;
 height: 100vh;
-background-color: black;
 overflow: hidden;
+background-color: black;
 
 }
 .row{
@@ -52,11 +52,18 @@ z-index: 999;
 .logoPet{
   position: absolute;
   width: 12vw;
-  height: 12vh;
+  height: 11vh;
   left: 5vw;
-  top: 10px;
+  top: 12px;
   z-index: 999;
   background-color: black;
+}
+#log{
+  position: absolute;
+  width: 10vw;
+  height: 10vh;
+  left: 1vw;
+  top: 12px;
 }
 
 h2{
@@ -74,6 +81,8 @@ h2{
 }
 h3{
   display: flex;
+  align-items:center;
+  flex-direction: column;
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
@@ -81,30 +90,15 @@ h3{
   line-height: 6.94vh;
   color: white;
 }
-.meds p{
-  position: absolute;
-  top:50vh;
-  left: 5vw;
-  font-family: roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2vw;
-  line-height: 2.31vh;
-}
 .pets{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  border-right: black solid 0.1vw;
+  border-bottom: black solid 0.2vw;
   width: 100vw;
   height: 20vh;
   background-color: coral;
   border-radius: 20px;
 }
-.pets p{
-  position: absolute;
-  top: 29vh;
-  left: 0.5vw;
+p{
+  align-items: flex-start;
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
@@ -162,28 +156,13 @@ h3{
   line-height: 2.31vh;
 }
 .meds{
-  display: flex;
-  text-align: center;
-  justify-content: center;
   border-right: black solid 0.1vw;
   width: 49.9vw;
   height: 49vh;
   background-color: coral;
   border-radius: 20px;
 }
-.food p{
-  position: absolute;
-  top: 50vh;
-  left: 59vw;
-  font-family: roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2vw;
-  line-height: 2.31vh;
-}
 .food{
-  display: flex;
-  justify-content: center;
   width: 50vw;
   height: 49vh;
   background-color: coral;
@@ -301,13 +280,257 @@ a span:nth-child(4){
       bottom: 100%;
   }
 }
-@media only screen and (max-width: 600px) {
-#logoPet{
-  width: 10vw;
+@media only screen and (max-width: 780px) {
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+body{
+  display: flex;
+  flex-wrap: wrap;
+width: 100vw;
+height: 100vh;
+background-color: black;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+width: 100vw;
+height: 100vh;
+background-color: black;
+}
+.header{
+  width: 100vw;
+  height: 20vh;
+  background-color:white;
+  border-bottom:green solid 0.3vw
+}
+.pets{
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 20vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.service{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 69vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.service p{
+  position: absolute;
+  top: 29vh;
+  left: 0.5vw;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 2.31vh;
+}
+.future{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 69vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.healthy{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 69vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.healthy p{
+  position: absolute;
+  top: 29vh;
+  left: 0.5vw;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 2.31vh;
+}
+a{
+  position: relative;
+  display: inline-flex;
+  font-size:xx-small;
+  width: 80%;
+  padding: 2px 2px;
+  margin: 5px 0;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 2px;
+  margin-right: 50px;
+  margin-left:30px;
+
+}
+a:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+a:nth-child(1){
+  filter: hue-rotate(270deg);
+}
+a:nth-child(2){
+  filter: hue-rotate(110deg);
+}
+a span{
+  position: absolute;
+  display: block;
+  font-size: xx-small;
+}
+a span:nth-child(1){
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#03e9f4);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+  0%{
+      left: -100%;
+  }
+  50%,100%{
+      left: 100%;
+  }
+}
+a span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#03e9f4);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2{
+  0%{
+      top: -100%;
+  }
+  50%,100%{
+      top: 100%;
+  }
+}
+a span:nth-child(3){
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#03e9f4);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.50s;
+}
+@keyframes animate3{
+  0%{
+      right: -100%;
+  }
+  50%,100%{
+      right: 100%;
+  }
+}
+
+
+a span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#03e9f4);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4{
+  0%{
+      bottom: -100%;
+  }
+  50%,100%{
+      bottom: 100%;
+  }
+}
+.menu{
+  display: block;
+  height:35vh;
+  width:100vw;
+  background-color:white;
+  border-radius:20px;
+}
+.logoPet{
+  position: absolute;
+  width: 15vw;
+  height: 12vh;
+  left: 0.2vw;
+  top: 8px;
+  background-color: black;
+}
+#log{
+  position: absolute;
+  width: 14vw;
   height: 10vh;
+  left: 0.2vw;
+  top: 8px;
+  z-index: 999;
+}
+h1{
+font-size:large;
+left:25vw;
+}
+h2{
+  font-size: small;
+  left: 25vw;
+}
+h3{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  font-size: medium;
+}
+.food{
+  width: 50vw;
+  height: 39vh;
+  background-color: coral;
+  border-radius:10px
+}
+p{
+  display: flex;
+  align-items: flex-start;
+  font-size: x-small;
+  padding: 5px;
+}
+.meds{
+  height: 39vh;
+  width: 49.8vw;
+  background-color: coral;
+  border-radius:10px ;
 }
 .chien{
-  width: 18vw;
-  height: 25vh;
+  position: absolute;
+  width: 25vw;
+  height: 14vh;
+  border-radius: 20px;
+  left: 71vw;
+  top: 12px;
+  background: url(chien-chat.jpg);
 }
 }
