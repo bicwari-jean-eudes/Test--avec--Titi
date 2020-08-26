@@ -7,7 +7,7 @@ body{
   display: flex;
   flex-wrap: wrap;
 width: 100vw;
-height: 100vh;
+margin: 0;
 overflow: hidden;
 background-color: black;
 
@@ -16,31 +16,59 @@ background-color: black;
   display: flex;
   flex-wrap: wrap;
 width: 100vw;
-height: 100vh;
+margin: 0;
 background-color: black;
 }
 .header{
+  display: flex;
+  flex-wrap: wrap;
   width: 100vw;
-  height: 20vh;
+  height: 17vh;
+  margin: 0;
   background-color:white;
   border-bottom:green solid 0.3vw
 }
+.logoPet{
+  display: flex;
+  justify-content: center;
+  width: 22vw;
+  height: 10vh;
+  z-index: 999;
+}
+#log{
+  align-items: center;
+  display: flex;
+  width: 22vw;
+  height: 10vh;
+  z-index: 999;
+}
+.caracte{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55vw;
+  height:16vh ;
+}
 .chien{
-  position: absolute;
-  width: 18vw;
-  height: 18vh;
+display: flex;
+justify-content: center;
+  width: 22vw;
+  height: 17vh;
   border-radius: 40px;
-  left: 65vw;
-  top: 7px;
+}
+#chien2{
+  align-items: center;
+  width: 18vw;
+  height: 17vh;
+  border-radius: 40px;
   background: url(chien-chat.jpg);
 }
 h1{
+  display: flex;
+  align-items: center;
   font-family: Sofia;
-  position: absolute;
   width: 24.90vw;
   height: 5.09vh;
-  left:12vw;
-  top: 2px;
   font-style: normal;
   font-weight: normal;
   font-size: 3.33vw;
@@ -49,29 +77,12 @@ h1{
 z-index: 999;
 
 }
-.logoPet{
-  position: absolute;
-  width: 12vw;
-  height: 11vh;
-  left: 5vw;
-  top: 12px;
-  z-index: 999;
-  background-color: black;
-}
-#log{
-  position: absolute;
-  width: 10vw;
-  height: 10vh;
-  left: 1vw;
-  top: 12px;
-}
+
 
 h2{
-  position: absolute;
+  align-items: flex-end;
   width: 45vw;
   height: 4.16vh;
-  left: 22vw;
-  top: 8vh;
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
@@ -94,8 +105,8 @@ h3{
   border-bottom: black solid 0.2vw;
   width: 100vw;
   height: 20vh;
+  padding: 10px;
   background-color: coral;
-  border-radius: 20px;
 }
 p{
   align-items: flex-start;
@@ -158,15 +169,15 @@ p{
 .meds{
   border-right: black solid 0.1vw;
   width: 49.9vw;
-  height: 49vh;
+  height: 50vh;
+  padding: 10px;
   background-color: coral;
-  border-radius: 20px;
 }
 .food{
   width: 50vw;
-  height: 49vh;
+  height: 50vh;
+  padding: 10px;
   background-color: coral;
-  border-radius:20px ;
 }
 .menu{
   display: flex;
@@ -176,6 +187,7 @@ p{
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   height: 12vh;
+  background-color: blanchedalmond;
 }
 
 a{
