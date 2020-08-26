@@ -314,8 +314,6 @@ header{
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
-  height: 15vh;
-  margin: 0;
   background-color:white;
   border-bottom:green solid 0.3vw
 }
@@ -323,20 +321,20 @@ header{
   width: 15vw;
 }
 .caracte{
-  width: 55vw;
-  height:16vh ;
+  width: 67vw;
+  height:55vh ;
   padding: 20px;
 }
 .chien{
 display: flex;
 justify-content: center;
-  width: 22vw;
+  width: 17vw;
   height: 17vh;
   border-radius: 40px;
 }
 #chien2{
   align-items: center;
-  width: 18vw;
+  width: 17vw;
   height: 14vh;
   border-radius: 40px;
   background: url(chien-chat.jpg);
@@ -345,23 +343,19 @@ h1{
   display: flex;
   align-items: center;
   font-family: Sofia;
-  width: 24.90vw;
-  height: 5.09vh;
   font-size: large;
   color:rgb(63, 243, 78);
 z-index: 999;
 }
 h2{
   align-items: flex-start;
-  width: 45vw;
-  height: 4.16vh;
-  font-size: large;
+  font-size:xx-small;
   color: maroon;
 }
 .pets{
   border-right: black solid 0.1vw;
   width: 100vw;
-  height: 40vh;
+  height: 50vh;
   background-color: coral;
   border-radius:10px ;
 }
