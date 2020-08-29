@@ -35,8 +35,8 @@ background-color: black;
 #log{
   align-items: center;
   display: flex;
-  width: 22vw;
-  height: 10vh;
+  width: 18vw;
+  height: 8vh;
   z-index: 999;
 }
 .caracte{
@@ -349,8 +349,9 @@ z-index: 999;
 }
 h2{
   align-items: flex-start;
-  font-size:xx-small;
+  font-size: x-small;
   color: maroon;
+  z-index: 999;
 }
 .pets{
   border-right: black solid 0.1vw;
