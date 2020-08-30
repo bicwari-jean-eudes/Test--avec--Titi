@@ -353,7 +353,7 @@ z-index: 999;
 }
 h2{
   display: inline-flex;
-  font-size: small;
+  font-size: medium;
   color: maroon;
   z-index: 999;
 }
