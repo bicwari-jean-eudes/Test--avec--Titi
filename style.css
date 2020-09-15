@@ -36,7 +36,7 @@ background-color: black;
   align-items: center;
   display: flex;
   width: 18vw;
-  height: 8vh;
+  height: 15vh;
   z-index: 999;
 }
 .caracte{
@@ -46,6 +46,7 @@ background-color: black;
 }
 .chien{
 display: flex;
+background-size: cover;
 justify-content: center;
   width: 22vw;
   height: 17vh;
@@ -53,6 +54,7 @@ justify-content: center;
 }
 #chien2{
   align-items: center;
+  object-fit: cover;
   width: 18vw;
   height: 17vh;
   border-radius: 40px;
@@ -353,7 +355,7 @@ z-index: 999;
 }
 h2{
   display: inline-flex;
-  font-size: medium;
+  font-size: x-small;
   color: maroon;
   z-index: 999;
 }
