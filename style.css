@@ -383,11 +383,7 @@ h2{
   position: absolute;
   top: 29vh;
   left: 0.5vw;
-  font-family: roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2vw;
-  line-height: 2.31vh;
+  font-size: medium;
 }
 .future{
   display: flex;
@@ -413,11 +409,7 @@ h2{
   position: absolute;
   top: 29vh;
   left: 0.5vw;
-  font-family: roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2vw;
-  line-height: 2.31vh;
+  font-size: medium;
 }
 a{
   position: relative;
