@@ -30,14 +30,15 @@ background-color: black;
 }
 .logoPet{
   width: 22vw;
-  height: 10vh;
+  height: 18vh;
+  background-size: cover;
 }
 #log{
   align-items: center;
   display: flex;
-  width: 18vw;
+  width: 12vw;
   height: 15vh;
-  z-index: 999;
+  object-fit: cover;
 }
 .caracte{
   width: 55vw;
@@ -64,7 +65,7 @@ h1{
   display: flex;
   align-items: center;
   font-family: Sofia;
-  width: 24.90vw;
+  width: 40vw;
   height: 5.09vh;
   font-style: normal;
   font-weight: normal;
@@ -101,10 +102,57 @@ h3{
   line-height: 6.94vh;
   color: white;
 }
+a.texto-pets h3:hover {
+  color: green;
+  text-transform: uppercase;
+}
+a.texto-meds h3:hover {
+  color: green;
+  text-transform: uppercase;
+}
+a.texto-food h3:hover {
+  color: green;
+  text-transform: uppercase;
+}
+a.texto1 h2:hover {
+  color: green;
+}
+
+#auteur{
+  display: flex;
+flex-direction: column;
+  width: 15vw;
+  height: 3vh;
+  border-radius: 5px;
+  color:black;
+  z-index: 999;
+}
+.group{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+  width: 100vw;
+  height: 8vh;
+  border-radius: 5px;
+  background-color:coral;
+}
+#email{
+  display: flex;
+  width: 15vw;
+  height: 3vh;
+  border-radius: 5px;
+  color:black;
+  z-index: 999;
+}
+#submit-btn{
+  width: 5vw;
+  height: 2vh;
+}
 .pets{
   border-bottom: black solid 0.2vw;
   width: 100vw;
-  height: 20vh;
+  height: 25vh;
   padding: 10px;
   border-radius: 20px;
   background-color: coral;
@@ -170,14 +218,14 @@ p{
 .meds{
   border-right: black solid 0.1vw;
   width: 49.9vw;
-  height: 50vh;
+  height: 48vh;
   padding: 10px;
   border-radius: 20px;
   background-color: coral;
 }
 .food{
   width: 50vw;
-  height: 50vh;
+  height: 48vh;
   padding: 10px;
   border-radius: 20px;
   background-color: coral;
@@ -193,7 +241,7 @@ p{
   background-color: black;
 }
 
-a{
+.menu a{
   position: relative;
   display: inline-block;
   padding: 25px 30px;
