@@ -390,11 +390,7 @@ justify-content: center;
   border-radius: 40px;
 }
 #chien2{
-  align-items: center;
-  width: 37vw;
-  height: 14vh;
-  border-radius: 60px;
-  background: url(chien-chat.jpg);
+ display: none;
 }
 h1{
   display: flex;
@@ -408,7 +404,6 @@ h2{
   display: inline-flex;
   font-size: small;
   color: maroon;
-  z-index: 999;
 }
 .pets{
   border-right: black solid 0.1vw;
@@ -459,7 +454,7 @@ h2{
   left: 0.5vw;
   font-size: medium;
 }
-a{
+.menu a{
   position: relative;
   display: inline-flex;
   font-size:xx-small;
@@ -602,5 +597,15 @@ p{
   left: 71vw;
   top: 12px;
   background: url(chien-chat.jpg);
+}
+#auteur{
+  display: none;
+}
+#email{
+  display: none;
+
+}
+#submit-btn{
+ display: none;
 }
 }
