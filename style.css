@@ -102,20 +102,27 @@ h3{
   line-height: 6.94vh;
   color: white;
 }
+a{
+  text-decoration: none;
+  }
 a.texto-pets h3:hover {
   color: green;
   text-transform: uppercase;
+  text-decoration: none;
 }
 a.texto-meds h3:hover {
   color: green;
   text-transform: uppercase;
+  text-decoration: none;
 }
 a.texto-food h3:hover {
   color: green;
   text-transform: uppercase;
+  text-decoration: none;
 }
 a.texto1 h2:hover {
   color: green;
+  text-decoration: none;
 }
 
 #auteur{
