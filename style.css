@@ -375,8 +375,6 @@ header{
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
-  background-color:white;
-  border-bottom:green solid 0.3vw
 }
 .logoPet{
   width: 20vw;
@@ -410,7 +408,7 @@ z-index: 999;
 }
 h2{
   display: inline-flex;
-  font-size: small;
+  font-size:x-small;
   color: maroon;
 }
 .pets{
