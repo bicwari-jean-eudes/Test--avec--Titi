@@ -24,7 +24,7 @@ background-color: black;
   flex-wrap: wrap;
   width: 100vw;
   height: 17vh;
-  margin: 0;
+  margin:0;
   background-color:white;
   border-bottom:green solid 0.3vw
 }
@@ -355,7 +355,6 @@ a span:nth-child(4){
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 *{
   margin: 0;
-  padding: 0;
   box-sizing: border-box;}
 body{
   display: flex;
@@ -371,10 +370,12 @@ background-color: black;
 width: 100vw;
 background-color: black;
 }
-header{
+.header{
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
+  height: 19vh;
+  padding: 10px;
 }
 .logoPet{
   width: 20vw;
@@ -384,14 +385,12 @@ header{
 }
 .caracte{
   display: flex;
-  width: 80vw;
-  height:55vh ;
-  padding: 20px;
+  width: 70vw;
+  height:17vh ;
 }
 .chien{
 display: flex;
 justify-content: center;
-  width: 100vw;
   height: 17vh;
   border-radius: 40px;
 }
