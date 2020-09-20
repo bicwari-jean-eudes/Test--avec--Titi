@@ -423,22 +423,6 @@ h2{
   background-color: coral;
   border-radius:10px ;
 }
-.service{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  border-right: black solid 0.1vw;
-  width: 100vw;
-  height: 69vh;
-  background-color: coral;
-  border-radius: 20px;
-}
-.service p{
-  position: absolute;
-  top: 29vh;
-  left: 0.5vw;
-  font-size: medium;
-}
 .future{
   display: flex;
   text-align: center;
@@ -448,6 +432,16 @@ h2{
   height: 69vh;
   background-color: coral;
   border-radius: 20px;
+}
+.service span{
+  display:none;
+}
+.service{
+  width: 100vw;
+  height: 100vh;
+}
+.service p{
+  font-size: large;
 }
 .healthy{
   display: flex;
