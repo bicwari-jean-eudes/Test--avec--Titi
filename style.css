@@ -407,8 +407,9 @@ z-index: 999;
 }
 h2{
   display: inline-flex;
-  font-size: small;
+  font-size: x-small;
   color: maroon;
+  padding-right: 20px;
 }
 .pets{
   border-right: black solid 0.1vw;
